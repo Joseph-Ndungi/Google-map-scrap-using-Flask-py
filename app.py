@@ -27,7 +27,7 @@ searchbox.send_keys(Keys.ENTER)
 time.sleep(2)
 
 #Locating the results of the search
-entries=driver.find_elements(By.CLASS_NAME,'hfpxzc')
+entries = driver.find_elements(By.CLASS_NAME, 'id-content-container')
 print(entries)
 
 #Prepare the excel file using the Openpyxl  
